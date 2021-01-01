@@ -1,0 +1,532 @@
+body {
+font-family: 'Montserrat';
+margin-right: 14px;
+}
+
+
+
+/* headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sidenav {
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+
+
+#title {
+  color: white;
+  background-color: #f7f7f7;
+}
+
+.fixednav{
+  margin-bottom: 10%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+
+.navbartoggler{
+  font-family: 'EB Garamond', serif;
+  color: black;
+}
+
+.ebu{
+    font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.ebu:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.navbar{
+  padding:0 0 ;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link1{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.2em;
+  color: grey;
+}
+
+.nav-link1:hover{
+  color: black;
+  text-decoration: none;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* /!-- Features --/ */
+
+
+.para{
+  font-size: 0.6rem;
+  color: #8f8f8f;
+}
+.para1{
+  font-size: 0.8rem;
+  color: #8f8f8f;
+}
+
+
+
+#features {
+  background: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feat{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+  text-align: center;
+}
+
+.feat1 {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+  text-align: center;
+  height: 60px;
+}
+
+.feat2 {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+  text-align: center;
+  height: 60px;
+}
+
+.feat3 {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+  text-align: center;
+  height: 60px;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hor{
+  width: 75%;
+  color: grey;
+}
+
+.fortimg{
+  width: 70%;
+}
+
+
+.fort1{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.2em;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 3rem;
+  padding: 7% 5%;
+}
+
+#features2 {
+  margin-top: 80px;
+}
+
+.featurtext{
+  padding-left: 5%;
+}
+
+.lorem{
+  margin-top: 10%;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+  padding: 4% 0;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 50%;
+}
+
+.testimonial-img1{
+  width: 113%;
+}
+
+h4{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.3em;
+  color: grey;
+}
+
+.btndiv{
+  margin-top: 5%;
+}
+
+.btn {
+padding: 2% 10%;
+font-family: 'EB Garamond', serif;
+letter-spacing: 0.1em;
+}
+
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  margin-bottom: 10%;
+  padding: 80px 10px 0;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.featuredimgdiv {
+  text-align: center;
+}
+
+.featured-img1{
+  width: 100%;
+}
+
+.featuredh1{
+  padding: 5%;
+}
+
+.featureddiv{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.1em;
+  color: grey;
+}
+
+.h4text{
+}
+
+/* footer */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 13%;
+}
+.fabft{
+  color: black;
+  margin: 20px 10px;
+}
+
+.fabft1{
+  color: white;
+  width: 2%;
+  line-height: 1px;
+}
+
+.fabft1:hover{
+  color: grey;
+}
+
+.fabft:hover{
+  color: grey;
+}
+.copyright {
+  color: #8f8f8f;
+}
+
+@media (max-width:991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  
+  .sidenav {
+  display: none;
+  }
+
+  .sidenav1 {
+    text-align: center;
+    top: auto;
+    bottom: 0;
+    width: 104%;
+    height: 55px;
+    position: fixed;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+  }
+
+  .fabft1{
+    width: 100%;
+  }
+
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+  .navbar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    padding: 0 10%;
+  }
+
+.collapse{
+  background: #fff;
+}
+
+.col-3{
+  text-align: center;
+  padding: 4%;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+  .featuredh1 {
+    text-align: left;
+  }
+  .featurtext{
+    text-align: left;
+  }
+
+  .ebu{
+   font-size: 1rem;
+  }
+
+  .navbartoggler{
+    font-size: 0.8rem;
+  }
+  .feat1 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    height: 60px;
+    margin: 5% 0;
+  }
+
+  .feat2 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    height: 60px;
+    margin: 5% 0;
+  }
+
+  .feat3 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    height: 60px;
+    margin: 5% 0;
+  }
+
+.nav-link1{
+  font-size: 0.5rem;
+}
+
+
+
+
+
+
+
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 13%;
+  text-align: center;
+  }
+  .cta-h3{
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+/* footer */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 13%;
+}
+.fabft{
+  color: black;
+  margin: 20px 10px;
+}
+.fabft:hover{
+  color: grey;
+}
+.copyright {
+  color: #8f8f8f;
+}
+}
+
+@media (max-width:350px){
+.fortimg1 {
+    margin-left: 0px;
+}
+
+h6{
+  font-size: 0.7rem;
+}
+}
+
+@media (min-width:992px) {
+
+.col-3{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+  .feat1 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    height: 60px;
+  }
+
+  .feat2 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 60px;
+  }
+
+  .feat3 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.4em;
+    color: grey;
+    text-align: center;
+    height: 60px;
+  }
+
+
+
+
+
+}
+
+@media (min-width:420px) and (max-width:991px) {
+  .col-3{
+    padding: 2%;
+  }
+
+  .nav-link1{
+    font-size: 0.7rem;
+  }
+
+  .fixednav{
+    margin-bottom: 20%;
+  }
+
+}
+
+@media (max-width:420px) {
+
+  .fixednav{
+    margin-bottom: 40%;
+  }
+}
